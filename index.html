@@ -13,23 +13,26 @@
             <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
             <a href="/" class="mdui-typo-headline">zhihao的导航</a>
             <div class="mdui-toolbar-spacer"></div>
-            <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>
-            <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
+            <a href="https://dogedoge.com" class="mdui-btn mdui-btn-icon"><i
+                    class="mdui-icon material-icons">search</i></a>
+            <a href="javascript:;" class="mdui-btn mdui-btn-icon zhihao-refresh"><i class="mdui-icon material-icons">refresh</i></a>
             <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
         </div>
     </div>
     <br>
     <div class="mdui-container">
-        <div class="mdui-card">
+        <div class="mdui-card mdui-ripple">
             <div class="mdui-card-media">
                 <img id="mdui_card_image" src="https://bing.ioliu.cn/v1" />
             </div>
             <div class="mdui-card-actions mdui-card-actions-stacked">
-                <button class="mdui-btn mdui-ripple" onclick="">换图</button>
+                <button id="button_change_image" class="mdui-btn mdui-ripple" alt="点击后请耐心等待加载"
+                    mdui-tooltip="{position:'right',content: '点击后请耐心等待加载'}">换图</button>
                 <button class="mdui-btn mdui-ripple">action 2</button>
             </div>
         </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
